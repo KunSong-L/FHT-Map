@@ -19,6 +19,11 @@ Support nodes retain a minimal amount of data to ensure storage efficiency while
   <img src="figure/museum_cons.gif" width = "640" height = "354"/>
 </p>
 
+Real-world experiment is conducted using turtlebot burger with a D435i camera and a RPlidar A2 (12 m).
+<p align="center">
+  <img src="figure/realworld.gif" width = "640" height = "354"/>
+</p>
+
 ## Quick Start
 The detailed code will be released when the paper is accepted.
 
