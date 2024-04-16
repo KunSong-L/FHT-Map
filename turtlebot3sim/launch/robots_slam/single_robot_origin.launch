@@ -1,0 +1,21 @@
+<launch>
+  <arg name="model" default="burger"/>
+  <arg name="configuration_basename" default=""/>
+  <arg name="open_rviz" default="false"/>
+
+  <group ns="robot1">
+    <include file="$(find turtlebot3sim)/launch/includes/cartographer_teb_origin.launch">
+      <arg name="model" value="$(arg model)"/>
+      <arg name="configuration_basename" value="turtlebot3_robot1.lua"/>
+      <arg name="robot_name" default="robot1"/>
+  </include>
+  </group>
+
+  <node name="map_padding" pkg="turtlebot3sim" type="map_padding.py" output="screen">
+    <param name="robot_name" value="robot1"/>
+    <param name="robot_num" value="1"/>
+  </node>
+  
+  <rosparam param="map_resolution">0.05</rosparam>
+  
+</launch>

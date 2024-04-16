@@ -1,0 +1,15 @@
+<launch>
+
+  <arg name="model" default="burger"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find fht_map)/rviz/fht_map_cons.rviz" />
+
+
+  <node name="map_building" pkg="fht_map" type="robot.py" output="screen">
+    <param name="network" value="retrievalSfM120k-vgg16-gem" />
+    <param name="platform" value="cuda" />
+    <param name="robot_name" value="robot1"/>
+    <param name="robot_num" value="1"/>
+  </node>
+
+
+</launch>

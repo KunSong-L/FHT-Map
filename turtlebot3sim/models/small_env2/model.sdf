@@ -1,0 +1,187 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='small_env2'>
+    <pose>5 5 0 0 -0 0</pose>
+    <link name='Wall_0'>
+      <collision name='Wall_0_Collision'>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual'>
+        <pose>0 0 1.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://small_env2/materials/scripts</uri>
+            <uri>model://small_env2/materials/textures</uri>
+            <name>wall7/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>-5 -0 0 0 -0 1.5708</pose>
+    </link>
+    <link name='Wall_1'>
+      <collision name='Wall_1_Collision'>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_1_Visual'>
+        <pose>0 0 1.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://small_env2/materials/scripts</uri>
+            <uri>model://small_env2/materials/textures</uri>
+            <name>wall1/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>-0 5 0 0 -0 0</pose>
+    </link>
+    <link name='Wall_2'>
+      <collision name='Wall_2_Collision'>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual'>
+        <pose>0 0 1.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://small_env2/materials/scripts</uri>
+            <uri>model://small_env2/materials/textures</uri>
+            <name>wall2/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>5 -0 0 0 -0 -1.5708</pose>
+    </link>
+    <link name='Wall_3'>
+      <collision name='Wall_3_Collision'>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_3_Visual'>
+        <pose>0 0 1.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://small_env2/materials/scripts</uri>
+            <uri>model://small_env2/materials/textures</uri>
+            <name>wall3/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>-0 -5 0 0 -0 3.14159</pose>
+    </link>
+    <link name='Wall_5'>
+      <collision name='Wall_5_Collision'>
+        <geometry>
+          <box>
+            <size>4 0.15 3.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_5_Visual'>
+        <pose>0 0 1.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4 0.15 3.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://small_env2/materials/scripts</uri>
+            <uri>model://small_env2/materials/textures</uri>
+            <name>wall8/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>-1.422 -0.226 0 0 -0 -1.5708</pose>
+    </link>
+    <link name='Wall_7'>
+      <collision name='Wall_7_Collision'>
+        <geometry>
+          <box>
+            <size>3.5 0.15 3.5</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.75 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_7_Visual'>
+        <pose>0 0 1.75 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.5 0.15 3.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://small_env2/materials/scripts</uri>
+            <uri>model://small_env2/materials/textures</uri>
+            <name>wall5/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>1.648 1.044 0 0 -0 -1.5708</pose>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>

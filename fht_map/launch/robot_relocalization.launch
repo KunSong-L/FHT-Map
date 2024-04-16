@@ -1,0 +1,16 @@
+<launch>
+
+  <arg name="model" default="burger"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find fht_map)/rviz/topo_reloca.rviz" />
+
+
+  <node name="map_building" pkg="fht_map" type="topo_relocalization.py" output="screen">
+    <param name="network" value="retrievalSfM120k-vgg16-gem" />
+    <param name="platform" value="cuda" />
+    <param name="robot_name" value="robot1"/>
+    <param name="robot_num" value="1"/>
+    <param name="th_match" value="0.97"/>
+  </node>
+
+
+</launch>

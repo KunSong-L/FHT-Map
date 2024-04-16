@@ -1,0 +1,20 @@
+<launch>
+
+  <arg name="model" default="burger"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find fht_map)/rviz/topo_navigation.rviz" />
+
+
+  <node name="robot_navigation" pkg="fht_map" type="topo_navigation.py" output="screen">
+    <param name="network" value="retrievalSfM120k-vgg16-gem" />
+    <param name="platform" value="cuda" />
+    <param name="robot_name" value="robot1"/>
+    <param name="robot_num" value="1"/>
+    <param name="target_x" value="7"/>
+    <param name="target_y" value="-5"/>
+    <param name="target_yaw" value="0"/>
+    <param name="origin_x" value="7"/>
+    <param name="origin_y" value="8"/>
+    <param name="origin_yaw" value="1.57"/>
+  </node>
+
+</launch>

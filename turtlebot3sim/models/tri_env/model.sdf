@@ -1,0 +1,217 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='tri_env'>
+    <pose>5 5 0 0 -0 0</pose>
+    <link name='Wall_0'>
+      <collision name='Wall_0_Collision'>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual'>
+        <pose>0 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tri_env/materials/scripts</uri>
+            <uri>model://tri_env/materials/textures</uri>
+            <name>wall1/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>-0 -5 0 0 -0 0</pose>
+    </link>
+    <link name='Wall_10'>
+      <collision name='Wall_10_Collision'>
+        <geometry>
+          <box>
+            <size>4.72414 0.15 3</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_10_Visual'>
+        <pose>0 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.72414 0.15 3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tri_env/materials/scripts</uri>
+            <uri>model://tri_env/materials/textures</uri>
+            <name>wall2/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>0.7065 0.31 0 0 -0 2.09393</pose>
+    </link>
+    <link name='Wall_2'>
+      <collision name='Wall_2_Collision'>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_2_Visual'>
+        <pose>0 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tri_env/materials/scripts</uri>
+            <uri>model://tri_env/materials/textures</uri>
+            <name>wall3/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>-0 5 0 0 -0 0</pose>
+    </link>
+    <link name='Wall_4'>
+      <collision name='Wall_4_Collision'>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_4_Visual'>
+        <pose>0 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tri_env/materials/scripts</uri>
+            <uri>model://tri_env/materials/textures</uri>
+            <name>wall8/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>-5 -0 0 0 -0 1.5708</pose>
+    </link>
+    <link name='Wall_6'>
+      <collision name='Wall_6_Collision'>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_6_Visual'>
+        <pose>0 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>10.15 0.15 3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tri_env/materials/scripts</uri>
+            <uri>model://tri_env/materials/textures</uri>
+            <name>wall5/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>5 -0 0 0 -0 -1.5708</pose>
+    </link>
+    <link name='Wall_8'>
+      <collision name='Wall_8_Collision'>
+        <geometry>
+          <box>
+            <size>3.5 0.15 3</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_8_Visual'>
+        <pose>0 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3.5 0.15 3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tri_env/materials/scripts</uri>
+            <uri>model://tri_env/materials/textures</uri>
+            <name>wall6/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>-1.2735 0.8405 0 0 -0 -2.09442</pose>
+    </link>
+    <link name='Wall_9'>
+      <collision name='Wall_9_Collision'>
+        <geometry>
+          <box>
+            <size>4.25 0.15 3</size>
+          </box>
+        </geometry>
+        <pose>0 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_9_Visual'>
+        <pose>0 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4.25 0.15 3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://tri_env/materials/scripts</uri>
+            <uri>model://tri_env/materials/textures</uri>
+            <name>wall7/Image </name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>-0.131 -1.1405 0 0 -0 -0.261781</pose>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>

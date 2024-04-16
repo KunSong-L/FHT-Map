@@ -1,0 +1,12 @@
+obstacle_range: 3.0
+raytrace_range: 3.5
+
+footprint: [[-0.08, -0.08], [-0.08, 0.08], [0.08, 0.08], [0.08, -0.08]]
+#robot_radius: 0.08
+
+# inflation_radius: 0.4
+cost_scaling_factor: 1
+
+map_type: costmap
+observation_sources: laser_scan_sensor
+laser_scan_sensor: {sensor_frame: base_scan, data_type: LaserScan, topic: scan, marking: true, clearing: true}
