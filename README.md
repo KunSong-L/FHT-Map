@@ -47,10 +47,12 @@ and
 source /PATH/TO/CARTO_CATKIN_WS/devel_isolated/setup.bash
 ```
 
+Beside, you need to install the following package [SMMR-Explore](https://github.com/efc-robot/SMMR-Explore).
+
 ### Turtlebot3 Description
 ```
 sudo apt install ros-noetic-turtlebot3*
-sudo apt install ros-noetic-bfl
+sudo apt-get install liborocos-bfl-dev
 pip install future
 sudo apt install ros-noetic-teb-local-planner
 ```
