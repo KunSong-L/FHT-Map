@@ -1,5 +1,4 @@
 import numpy as np
-import cv2
 import math
 from networkx.generators import social
 from scipy.spatial.transform import Rotation as R
