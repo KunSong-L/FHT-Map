@@ -47,8 +47,6 @@ and
 source /PATH/TO/CARTO_CATKIN_WS/devel_isolated/setup.bash
 ```
 
-Beside, you need to install the following package [SMMR-Explore](https://github.com/efc-robot/SMMR-Explore).
-
 ### Turtlebot3 Description
 ```
 sudo apt install ros-noetic-turtlebot3*
@@ -71,14 +69,14 @@ We suggest that you can add *source ~/fht_map_ws/devel/setup.bash* to ~/.bashrc
 Two different simulation environments (*Museum* and *office*) are provided in this repository.
 To run our code, you need to open a simulation environment firstly.
 ```
-roslaunch turtlbot3sim museum_env.launch
+roslaunch turtlebot3sim museum_env.launch
 or
-roslaunch turtlbot3sim office_env.launch
+roslaunch turtlebot3sim office_env.launch
 ```
 
 Then, you need to start the 2-D SLAM and move-base module for turtlebot.
 ```
-roslaunch turtlbot3sim single_robot_origin.launch
+roslaunch turtlebot3sim single_robot_origin.launch
 ```
 
 Finally, you can start the process of constructing FHT-Map.
@@ -90,8 +88,8 @@ When the robot exploration process is finished, our code will record a FHT-Map a
 ## Simulations for relocalization
 Take relocalization in *museum* as an example.
 ```
-roslaunch turtlbot3sim museum_env.launch
-roslaunch turtlbot3sim single_robot_origin.launch
+roslaunch turtlebot3sim museum_env.launch
+roslaunch turtlebot3sim single_robot_origin.launch
 roslaunch fht_map robot_relocalization.launch
 ```
 Then, you need to play the rosbag to transfer the already constructed FHT-Map to the relocalization method.
@@ -102,8 +100,8 @@ roscd fht_map && rosbag play ./bag/museum_fht_map.bag --topics /robot1/topomap
 ## Simulations for Path Planning
 Take path planning in *museum* as an example.
 ```
-roslaunch turtlbot3sim museum_env.launch
-roslaunch turtlbot3sim single_robot_origin.launch
+roslaunch turtlebot3sim museum_env.launch
+roslaunch turtlebot3sim single_robot_origin.launch
 roslaunch fht_map robot_navigation.launch
 ```
 Then, you need to play the rosbag to transfer the already constructed FHT-Map to the path planning method.

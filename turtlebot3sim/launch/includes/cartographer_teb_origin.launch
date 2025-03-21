@@ -3,7 +3,6 @@
   <arg name="model" default="burger"/>
   <arg name="configuration_basename" default="turtlebot3_lds_2d.lua"/>
   <arg name="robot_name" default=""/>
-  <arg name="weightspath" default="$(find smmr_explore_wrapper)/scripts/model_test.ckpt" />
 
   <!-- move_base -->
   <include file="$(find turtlebot3sim)/launch/includes/move_base_robot.launch">
